@@ -1,0 +1,101 @@
+header {
+  height: 100px;
+  background-color: #cccccc;
+}
+
+#custom-slider {
+  padding: 50px 0px;
+}
+
+#custom-slider .custom-slider-wrapper {
+  width: 800px;
+  margin: 0 auto;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+
+#custom-slider .custom-slider-wrapper .custom-slider-tape {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #b1b1b1;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#custom-slider .custom-slider-wrapper .custom-slider-tape .custom-slider-item {
+  width: 800px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 100px;
+}
+
+#custom-slider .custom-slider-wrapper .custom-slider-tape .custom-slider-item img {
+  width: 800px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#custom-slider .custom-slider-wrapper .custom-slider-controls {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#custom-slider .custom-slider-wrapper .custom-slider-controls .arrows {
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
+#custom-slider .custom-slider-wrapper .custom-slider-controls .arrows i {
+  font-size: 60px;
+  color: rgba(209, 209, 209, 0.3);
+}
+
+#custom-slider .custom-slider-wrapper .custom-slider-controls .arrows:hover {
+  background: rgba(0, 0, 0, 0.2) !important;
+}
+
+#custom-slider .custom-slider-wrapper .custom-slider-controls .arrows:hover i {
+  color: #d1d1d1 !important;
+}
+
+#custom-slider .custom-slider-wrapper .custom-slider-controls:hover .arrows {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+#custom-slider .custom-slider-wrapper .custom-slider-controls:hover .arrows i {
+  font-size: 60px;
+  color: rgba(209, 209, 209, 0.6);
+}
+/*# sourceMappingURL=style.css.map */
